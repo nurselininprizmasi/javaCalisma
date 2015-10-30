@@ -1,4 +1,4 @@
-package Bolum3;
+package bolum3;
 
 public class CalismaSoru20 {
 

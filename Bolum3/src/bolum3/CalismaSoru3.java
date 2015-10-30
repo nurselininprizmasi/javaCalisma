@@ -1,4 +1,4 @@
-package Bolum3;
+package bolum3;
 //girilen sayı kadar döngü sayısı hesaplama
 import java.util.Scanner;
 

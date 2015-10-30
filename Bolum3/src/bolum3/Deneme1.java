@@ -1,4 +1,4 @@
-package Bolum3;
+package bolum3;
 
 import java.util.Scanner;
 

@@ -1,4 +1,4 @@
-package Bolum3;
+package bolum3;
 // break komutunun kullanýlmasý
 import java.util.Scanner;
 
