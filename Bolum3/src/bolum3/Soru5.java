@@ -17,25 +17,33 @@ public class Soru5 {
 		
 	}
 
-	private static double fonksiyonHesapla(double sayi) {
+	 static double fonksiyonHesapla(double sayi) {
 		int isaret = 1;
 		int ustel = 1;
 		int faktoriyel;
 		double toplam = 0.0;
-		while(ustel == 7)
+		double geciciTop,ustelHesap;
+		//formülde üstel hesaplama ve faktöriyel ile bölme
+		while(ustel <= 7)
 		{
-			sayi=isaret*sayi;
+			ustelHesap = Math.pow(sayi,ustel);
 			faktoriyel = faktoriyel(ustel);
-			toplam = toplam + sayi;
+			geciciTop = isaret * (ustelHesap / faktoriyel);
+			toplam =toplam + geciciTop;
+			isaret = isaret * -1;
+			ustel +=2;
+
 		}
 		
-		return sayi;
+		return toplam;
 		
 	}
-
-	private static int faktoriyel(int ustel) {
-		
-		return ustel;
+	 //faktöriyelin hesaplanmasý
+	static int faktoriyel(int ustel) {
+		int faktor =1;
+		for(int i=1;i<=ustel;i++)
+		faktor=faktor*i;
+		return faktor;
 		
 	}
 
