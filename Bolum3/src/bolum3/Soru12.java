@@ -16,6 +16,7 @@ public class Soru12 {
 		System.out.println("Bir cumle yazýnýz..");
 		cumle =giris.nextLine();
 		uzunluk = cumle.trim().length();
+		giris.close();
 		for(int i =0;i <uzunluk;i++)//cumlenin uzunluðuna göre dönecek
 		{
 			int boslukVarMi = cumle.indexOf(" ");
